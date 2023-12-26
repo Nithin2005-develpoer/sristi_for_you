@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>flower</title>
+        <!-- <link rel="stylesheet" href="\html.x\flower.css"> -->
+        <link rel="icon" href="">
+        <style>
+            *{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-image: url("https://i.pinimg.com/564x/1f/35/60/1f3560b7cc4831777cc729929042d00d.jpg");
+    background-size: cover;
+}
+#circle{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color:rgba(227, 227, 188 , 0.8) ;
+    border: 2px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    box-shadow: 3px 3px 3px 3px rgba(210, 210, 205,0.5);
+}
+#dots{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 48%;
+    left: 49%;
+}
+#petal1{
+    height: 50px;
+    width: 150px;
+    border-radius: 80%;
+    position: absolute;
+    top: 55%;
+    left: 52%;
+}
+@keyframes petal{
+    0%{
+        border-right: 5px solid black
+    }
+    100%{
+        border-right: 2px solid beige;
+    }
+}
+#petal1{
+    animation: petal 5s none 0s infinite;
+}
+#petal2{
+    animation: petal 5s none 0s infinite;
+}
+#petal2{
+    height: 50px;
+    width: 150px;
+    border-radius: 80%;
+    position: absolute;
+    top: 55%;
+    left: 52%;
+    transform: rotate(30deg);
+}
+#petal3{
+    animation: petal 5s none 0s infinite;
+}
+#petal3{
+    height: 50px;
+    width: 150px;
+    border-radius: 80%;
+    position: absolute;
+    top: 55%;
+    left: 52%;
+    transform: rotate(-30deg);
+}
+#petal4{
+    animation: petal 5s none 0s infinite;
+}
+#petal4{
+    height: 50px;
+    width: 150px;
+    border-radius: 80%;
+    position: absolute;
+    top: 55%;
+    left: 52%;
+    transform: rotate(60deg);
+}
+#petal5{
+    animation: petal 5s none 0s infinite;
+}
+#petal5{
+    height: 50px;
+    width: 150px;
+    border-radius: 80%;
+    position: absolute;
+    top: 55%;
+    left: 52%;
+    transform: rotate(-60deg);
+}
+#petal6{
+    animation: petalb 5s none 0s infinite;
+}
+#petal6{
+    height: 50px;
+    width: 150px;
+    border-radius: 80%;
+    position: absolute;
+    top: 55%;
+    left: 46%;
+}
+@keyframes petalb{
+    0%{
+        border-left: 5px solid black
+    }
+    100%{
+        border-left: 2px solid beige;
+    }
+}
+#petal7{
+    animation: petalb 5s none 0s infinite;
+}
+#petal7{
+    height: 50px;
+    width: 150px;
+    border-radius: 80%;
+    position: absolute;
+    top: 55%;
+    left: 46%;
+    transform: rotate(30deg);
+}
+#petal8{
+    animation: petalb 5s none 0s infinite;
+}
+#petal8{
+    height: 50px;
+    width: 150px;
+    border-radius: 80%;
+    position: absolute;
+    top: 55%;
+    left: 46%;
+    transform: rotate(-30deg);
+}
+#petal9{
+    animation: petalb 5s none 0s infinite;
+}
+#petal9{
+    height: 50px;
+    width: 150px;
+    border-radius: 80%;
+    position: absolute;
+    top: 55%;
+    left: 46%;
+    transform: rotate(-60deg);
+}
+#petal10{
+    animation: petalb 5s none 0s infinite;
+}
+#petal10{
+    height: 50px;
+    width: 150px;
+    border-radius: 80%;
+    position: absolute;
+    top: 55%;
+    left: 46%;
+    transform: rotate(60deg);
+}
+#petal11{
+    animation: petalc 5s none 0s infinite;
+}
+#petal11{
+    height: 150px;
+    width: 50px;
+    border-radius: 80%;
+    position: absolute;
+    top: 42%;
+    left: 52%;
+}
+@keyframes petalc{
+    0%{
+        border-top: 5px solid black
+    }
+    100%{
+        border-top: 2px solid beige;
+    }
+}
+#petal12{
+    animation: petalc 5s none 0s infinite;
+}
+#petal12{
+    height: 150px;
+    width: 50px;
+    border-radius: 80%;
+    position: absolute;
+    top: 42%;
+    left: 52%;
+    transform: rotate(30deg);
+}
+#petal13{
+    animation: petalc 5s none 0s infinite;
+}
+#petal13{
+    height: 150px;
+    width: 50px;
+    border-radius: 80%;
+    position: absolute;
+    top: 42%;
+    left: 52%;
+    transform: rotate(-30deg);
+}
+#petal14{
+    animation: petalc 5s none 0s infinite;
+}
+#petal14{
+    height: 150px;
+    width: 50px;
+    border-radius: 80%;
+    position: absolute;
+    top: 42%;
+    left: 52%;
+    transform: rotate(-60deg);
+}
+#petal15{
+    animation: petalc 5s none 0s infinite;
+}
+#petal15{
+    height: 150px;
+    width: 50px;
+    border-radius: 80%;
+    position: absolute;
+    top: 42%;
+    left: 52%;
+    transform: rotate(60deg);
+}
+#petal16{
+    animation: petalb 5s none 0s infinite;
+}
+#petal16{
+    height: 50px;
+    width: 150px;
+    border-radius: 80%;
+    position: absolute;
+    top: 55%;
+    left: 46%;
+    transform: rotate(-80deg);
+}
+#petal17{
+    animation: petal 5s none 0s infinite;
+}
+#petal17{
+    height: 50px;
+    width: 150px;
+    border-radius: 80%;
+    position: absolute;
+    top: 55%;
+    left: 52%;
+    transform: rotate(80deg);
+}
+#stem{
+    height: 150px;
+    width: 0px;
+    border: 2px solid rgba(101, 101, 99,0.5);
+    position: absolute;
+    top: 68%;
+    left: 55%;
+}
+#leaf{
+    height: 50px;
+    width: 150px;
+    border-radius: 80%;
+    border-left: 2px solid beige;
+    position: absolute;
+    top: 80%;
+    left: 45%;
+}
+#leafstick{
+    height: 0px;
+    width: 100px;
+    border: 1px solid rgba(101, 101, 99,0.5);
+    position: absolute;
+    top: 85%;
+    left: 46%;
+}
+#greet{
+    display: inline;
+    position: absolute;
+    top: 70%;
+    left: 30%;
+    animation-name:trans ;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes trans{
+    from{
+        translate: -10px;
+        color: beige;
+    }
+    to{
+        translate: 50px;
+        color: black;
+    }
+}
+        </style>
+    </head>
+    <body>
+        <div id="circle"></div>
+        <div id="dots"><img src="https://static.vecteezy.com/system/resources/thumbnails/020/050/486/small/circle-dotted-background-pop-art-comic-style-illustration-png.png" alt="" height="130px" width="130px"></div>
+        <div id="petal1"></div>
+        <div id="petal2"></div>
+        <div id="petal3"></div>
+        <div id="petal4"></div>
+        <div id="petal5"></div>
+        <div id="petal6"></div>
+        <div id="petal7"></div>
+        <div id="petal8"></div>
+        <div id="petal9"></div>
+        <div id="petal10"></div>
+        <div id="petal11"></div>
+        <div id="petal12"></div>
+        <div id="petal13"></div>
+        <div id="petal14"></div>
+        <div id="petal15"></div>
+        <div id="petal16"></div>
+        <div id="petal17"></div>
+        <div id="stem"></div>
+        <div id="leaf"></div>
+        <div id="leafstick"></div>
+        <div id="greet">FOR YOU MY DEAR BESTIE</div>
+    </body>
+</html>
